@@ -1,6 +1,5 @@
 import cv2 as cv
 import time
-from datetime import datetime 
 
 
 def findCamIndex():
