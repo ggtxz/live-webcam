@@ -18,7 +18,7 @@ def findCamIndex():
 
 def gen_frames(index):
     
-    camera = cv.VideoCapture(1)
+    camera = cv.VideoCapture(index)
 
     inicio = time.time()
     tempo = time.time() - inicio
