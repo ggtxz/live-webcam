@@ -23,7 +23,7 @@ def gen_frames(index):
     inicio = time.time()
     tempo = time.time() - inicio
 
-    while tempo <= 10:
+    while tempo <= 30:
         tempo = time.time() - inicio
         
         success, frame = camera.read()
